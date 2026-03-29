@@ -1,0 +1,50 @@
+@import "./common.scss";
+@import "./layout.scss";
+@import "./home.scss";
+@import "./product.scss";
+@import "./cart.scss";
+@import "./notFound.scss";
+@import "./productDetails.scss";
+@import "./about.scss";
+@import "./contact.scss";
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  text-transform: capitalize;
+}
+
+.moon-dance {
+  font-family: "Moon Dance", cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-btn {
+  padding: 10px 20px !important;
+  color: #ffff;
+  border-radius: 30px;
+  text-transform: capitalize;
+  background-color: #a74f65;
+  border: 1px solid #a74f65;
+  &:hover,
+  &:active,
+  &:active:focus,
+  &.show {
+    background-color: white;
+    border: 1px solid #a74f65;
+    color: #a74f65;
+    box-shadow: none !important;
+  }
+}
+
+.icon-start {
+  color: #ffc107;
+}

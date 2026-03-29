@@ -1,0 +1,35 @@
+.header {
+  background-color: #edd9be;
+  color: #a74f65 !important;
+  .cart-icon {
+    font-size: 20px;
+  }
+  .counter{
+    font-size: 12px;
+    top: -13px;
+    right: -13px;
+    background-color: #a74f65;
+    color: #ffff;
+    width: 23px;
+    height: 23px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+  }
+}
+.footer {
+  background-color: #edd9be;
+  color: #b77499;
+  color: rgb(92, 92, 92);
+  font-weight: 600;
+  margin-bottom: 0;
+  .title {
+    h1 {
+      font-size: 50px;
+      color: #a74f65;
+    }
+  }
+}

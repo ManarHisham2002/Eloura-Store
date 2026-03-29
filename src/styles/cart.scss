@@ -1,0 +1,31 @@
+.item {
+  background-color: #dfdede;
+  .icon {
+    color: #a74f65;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+      color: #a74f65c2;
+    }
+  }
+  .right-section {
+    h3 {
+      color: #a74f65;
+    }
+  }
+  .left-section {
+    .product-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+}
+.summary {
+  background-color: #bd6e82;
+  color: #ffff;
+  h2 {
+    border-bottom: 1px solid #ffff;
+  }
+}

@@ -1,0 +1,58 @@
+.slider-container {
+  background-color: #edd9be;
+  .slick-slider {
+    position: relative;
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      z-index: 2;
+
+      img {
+        width: 35px;
+      }
+    }
+    .next {
+      right: 40px;
+    }
+    .prev {
+      left: 40px;
+    }
+    .unshow {
+      display: none;
+    }
+  }
+}
+.service-cart {
+  border-radius: 12px;
+  width: 300px;
+  height: 200px;
+  .icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  h2 {
+    color: #fff;
+  }
+  p {
+    color: #dfdede;
+  }
+}
+.discount {
+  text-align: center;
+  background-color: #edd9be;
+}
+.arrival {
+  text-align: center;
+}
+.sale {
+  text-align: center;
+  background-color: #edd9be26;
+}

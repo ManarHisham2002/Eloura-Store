@@ -1,0 +1,21 @@
+.content {
+  text-align: center;
+  .paragraph {
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+    .errorNum {
+      color: #a74f65;
+      font-size: 100px;
+      font-family: "Manrope", sans-serif;
+    }
+    .smallP {
+      font-size: 18px;
+    }
+  }
+  img {
+    max-width: 100vw;
+    max-height: 60vh;
+    border-bottom: 5px solid #a74f65;
+  }
+}

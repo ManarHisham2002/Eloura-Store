@@ -1,0 +1,34 @@
+.product-details {
+  img {
+    max-width: 450px;
+    max-height: 500px;
+  }
+  h2,
+  h3,
+  .category,
+  .active-btn,
+  .custom-name {
+    color: #a74f65;
+  }
+  h2 {
+    font-size: 55px;
+  }
+  .salary,
+  .custom-name {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .info {
+    color: grey;
+  }
+  .active-btn {
+    background-color: white;
+    border: 1px solid #a74f65;
+    box-shadow: none !important;
+  }
+  .custom-name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
